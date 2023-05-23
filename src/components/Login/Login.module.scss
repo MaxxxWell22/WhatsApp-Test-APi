@@ -1,0 +1,62 @@
+.parent {
+  width: 100%;
+  height: 100vh;
+  background-color: #00a884;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+    width: 500px;
+    height: 40vh;
+    padding: 50px;
+    border-radius: 50px;
+
+    .label {
+      display: flex;
+      flex-direction: column;
+      justify-self: center;
+      align-items: center;
+      margin: 12px;
+
+      span {
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+      }
+
+      input {
+        margin-top: 12px;
+        height: 4vh;
+        border-radius: 5px;
+      }
+
+      .instance {
+        width: 75px;
+        padding: 3px 12px;
+      }
+
+      .token {
+        width: 360px;
+        padding: 3px 10px;
+      }
+    }
+
+    .send {
+      margin-top: 30px;
+      padding: 10px;
+      border-radius: 20px;
+      width: 150px;
+
+      &:hover{
+        background-color: #00a884;
+        cursor: pointer;
+      }
+    }
+  }
+}
